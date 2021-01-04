@@ -23,6 +23,24 @@
         transform: rotate(81.721deg);
     }
 
+    4% {
+        left: calc(329px - 40px);
+        top: calc(292px - 40px);
+        transform: rotate(60.096deg);
+    }
+
+    5% {
+        left: calc(292px - 40px);
+        top: calc(329px - 40px);
+        transform: rotate(44.418deg);
+    }
+
+    6% {
+        left: calc(250px - 40px);
+        top: calc(359px - 40px);
+        transform: rotate(34.745deg);
+    }
+
     100% {
         left: calc(100px + 300px - 40px);
         top: calc(100px - 40px);
