@@ -5,6 +5,7 @@ Description
 -----------
 
 see README.md
+see sketch.jpg
 
 Assumptions
 -----------
