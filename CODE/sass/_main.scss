@@ -23,7 +23,6 @@ body {
                 position: absolute;
                 width: 40px;
                 height: 40px;
-                // border: 1px solid black;
                 border-radius: 20px;
                 background-color: black;
             }
@@ -32,7 +31,6 @@ body {
         .robot_body {
             width: 950px;
             height: 200px;
-            // border: 1px solid black;
             background-color: cadetblue;
 
             >div:first-child {
@@ -49,7 +47,6 @@ body {
         .left_arm_1 {
             width: 380px;
             height: 80px;
-            // border: 1px solid black;
             border-radius: 40px;
             background-color: navy;
 
@@ -67,7 +64,6 @@ body {
         .left_arm_2 {
             width: 880px;
             height: 80px;
-            // border: 1px solid black;
             border-radius: 40px;
             background-color: royalblue;
 
@@ -85,7 +81,6 @@ body {
         .right_arm_1 {
             width: 380px;
             height: 80px;
-            // border: 1px solid black;
             border-radius: 40px;
 
             background-color: royalblue;
@@ -104,7 +99,6 @@ body {
         .right_arm_2 {
             width: 880px;
             height: 80px;
-            // border: 1px solid black;
             border-radius: 40px;
             background-color: navy;
 
@@ -127,7 +121,6 @@ body {
             top: calc(100px - 40px);
             transform: rotate(0deg);
             transform-origin: 40px 40px;
-            transition: 1s linear;
             animation: left_arm1_animation 15s linear infinite;
         }
 
@@ -136,7 +129,6 @@ body {
             top: calc(100px - 40px);
             transform: rotate(84.61deg);
             transform-origin: 40px 40px;
-            transition: 1s linear;
             animation: left_arm2_animation 15s linear infinite;
         }
 
@@ -145,7 +137,6 @@ body {
             top: calc(100px - 40px);
             transform: rotate(-180deg);
             transform-origin: 40px 40px;
-            transition: 1s linear;
             animation: right_arm1_animation 15s linear infinite;
         }
 
@@ -154,7 +145,6 @@ body {
             top: calc(100px - 40px);
             transform: rotate(180deg - 84.61deg);
             transform-origin: 40px 40px;
-            transition: 1s linear;
             animation: right_arm2_animation 15s linear infinite;
         }
     }

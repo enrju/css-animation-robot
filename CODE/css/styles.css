@@ -127,8 +127,6 @@ body section .left_arm_1 {
           transform: rotate(0deg);
   -webkit-transform-origin: 40px 40px;
           transform-origin: 40px 40px;
-  -webkit-transition: 1s linear;
-  transition: 1s linear;
   -webkit-animation: left_arm1_animation 15s linear infinite;
           animation: left_arm1_animation 15s linear infinite;
 }
@@ -140,8 +138,6 @@ body section .left_arm_2 {
           transform: rotate(84.61deg);
   -webkit-transform-origin: 40px 40px;
           transform-origin: 40px 40px;
-  -webkit-transition: 1s linear;
-  transition: 1s linear;
   -webkit-animation: left_arm2_animation 15s linear infinite;
           animation: left_arm2_animation 15s linear infinite;
 }
@@ -153,8 +149,6 @@ body section .right_arm_1 {
           transform: rotate(-180deg);
   -webkit-transform-origin: 40px 40px;
           transform-origin: 40px 40px;
-  -webkit-transition: 1s linear;
-  transition: 1s linear;
   -webkit-animation: right_arm1_animation 15s linear infinite;
           animation: right_arm1_animation 15s linear infinite;
 }
@@ -166,8 +160,6 @@ body section .right_arm_2 {
           transform: rotate(95.39deg);
   -webkit-transform-origin: 40px 40px;
           transform-origin: 40px 40px;
-  -webkit-transition: 1s linear;
-  transition: 1s linear;
   -webkit-animation: right_arm2_animation 15s linear infinite;
           animation: right_arm2_animation 15s linear infinite;
 }
