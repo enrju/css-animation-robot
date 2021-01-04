@@ -41,6 +41,42 @@
         transform: rotate(63.468deg);
     }
 
+    7% {
+        left: calc(554px - 40px);
+        top: calc(152px - 40px);
+        transform: rotate(67.225deg);
+    }
+
+    8% {
+        left: calc(568px - 40px);
+        top: calc(202px - 40px);
+        transform: rotate(78.422deg);
+    }
+
+    9% {
+        left: calc(590px - 40px);
+        top: calc(249px - 40px);
+        transform: rotate(98.278deg);
+    }
+
+    10% {
+        left: calc(620px - 40px);
+        top: calc(292px - 40px);
+        transform: rotate(119.903deg);
+    }
+
+    11% {
+        left: calc(657px - 40px);
+        top: calc(329px - 40px);
+        transform: rotate(135.581deg);
+    }
+
+    12% {
+        left: calc(700px - 40px);
+        top: calc(359px - 40px);
+        transform: rotate(145.254deg);
+    }
+
     100% {
         left: calc(100px + 750px - 300px - 40px);
         top: calc(100px - 40px);
