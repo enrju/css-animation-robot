@@ -1,0 +1,13 @@
+@keyframes right_arm2_animation {
+    0% {
+        left: calc(100px + 750px - 300px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(180deg - 84.61deg);
+    }
+
+    100% {
+        left: calc(100px + 750px - 300px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(180deg - 84.61deg);
+    }
+}

@@ -1,0 +1,13 @@
+@keyframes left_arm1_animation {
+    0% {
+        left: calc(100px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        left: calc(100px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(0deg);
+    }
+}

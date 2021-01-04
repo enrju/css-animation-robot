@@ -123,35 +123,39 @@ body {
         /* X = left */
         /* Y = top */
         .left_arm_1 {
-            top: calc(100px - 40px);
             left: calc(100px - 40px);
+            top: calc(100px - 40px);
             transform: rotate(0deg);
             transform-origin: 40px 40px;
             transition: 1s linear;
+            animation: left_arm1_animation 7s linear infinite;
         }
 
         .left_arm_2 {
-            top: calc(100px - 40px);
             left: calc(100px + 300px - 40px);
+            top: calc(100px - 40px);
             transform: rotate(84.61deg);
             transform-origin: 40px 40px;
             transition: 1s linear;
+            animation: left_arm2_animation 7s linear infinite;
         }
 
         .right_arm_1 {
-            top: calc(100px - 40px);
             left: calc(100px + 750px - 40px);
+            top: calc(100px - 40px);
             transform: rotate(-180deg);
             transform-origin: 40px 40px;
             transition: 1s linear;
+            animation: right_arm1_animation 7s linear infinite;
         }
 
         .right_arm_2 {
-            top: calc(100px - 40px);
             left: calc(100px + 750px - 300px - 40px);
+            top: calc(100px - 40px);
             transform: rotate(180deg - 84.61deg);
             transform-origin: 40px 40px;
             transition: 1s linear;
+            animation: right_arm2_animation 7s linear infinite;
         }
     }
 }
