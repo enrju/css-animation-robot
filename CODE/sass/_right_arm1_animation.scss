@@ -123,6 +123,30 @@
         transform: rotate(-180deg - 0deg);
     }
 
+    31% {
+        transform: rotate(-180deg + 10deg);
+    }
+
+    32% {
+        transform: rotate(-180deg + 20deg);
+    }
+
+    33% {
+        transform: rotate(-180deg + 30deg);
+    }
+
+    34% {
+        transform: rotate(-180deg + 40deg);
+    }
+
+    35% {
+        transform: rotate(-180deg + 50deg);
+    }
+
+    36% {
+        transform: rotate(-180deg + 60deg);
+    }
+
     100% {
         transform: rotate(-180deg);
     }
