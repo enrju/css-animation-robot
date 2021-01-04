@@ -5,6 +5,24 @@
         transform: rotate(180deg - 84.61deg);
     }
 
+    1% {
+        left: calc(554px - 40px);
+        top: calc(152px - 40px);
+        transform: rotate(95.707deg);
+    }
+
+    2% {
+        left: calc(568px - 40px);
+        top: calc(202px - 40px);
+        transform: rotate(96.682deg);
+    }
+
+    3% {
+        left: calc(590px - 40px);
+        top: calc(249px - 40px);
+        transform: rotate(98.278deg);
+    }
+
     100% {
         left: calc(100px + 750px - 300px - 40px);
         top: calc(100px - 40px);
