@@ -1,0 +1,49 @@
+@keyframes left_arm1_animation {
+    0% {
+        left: calc(100px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(0deg);
+    }
+
+    1% {
+        left: calc(100px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(10deg);
+    }
+
+    2% {
+        left: calc(100px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(20deg);
+    }
+
+    3% {
+        left: calc(100px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(30deg);
+    }
+
+    4% {
+        left: calc(100px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(40deg);
+    }
+
+    5% {
+        left: calc(100px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(50deg);
+    }
+
+    6% {
+        left: calc(100px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(60deg);
+    }
+
+    100% {
+        left: calc(100px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(0deg);
+    }
+}

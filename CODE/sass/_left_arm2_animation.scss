@@ -1,0 +1,49 @@
+@keyframes left_arm2_animation {
+    0% {
+        left: calc(100px + 300px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(84.61deg);
+    }
+
+    1% {
+        left: calc(395px - 40px);
+        top: calc(152px - 40px);
+        transform: rotate(84.292deg);
+    }
+
+    2% {
+        left: calc(381px - 40px);
+        top: calc(202px - 40px);
+        transform: rotate(83.317deg);
+    }
+
+    3% {
+        left: calc(359px - 40px);
+        top: calc(249px - 40px);
+        transform: rotate(81.721deg);
+    }
+
+    4% {
+        left: calc(329px - 40px);
+        top: calc(292px - 40px);
+        transform: rotate(60.096deg);
+    }
+
+    5% {
+        left: calc(292px - 40px);
+        top: calc(329px - 40px);
+        transform: rotate(44.418deg);
+    }
+
+    6% {
+        left: calc(250px - 40px);
+        top: calc(359px - 40px);
+        transform: rotate(34.745deg);
+    }
+
+    100% {
+        left: calc(100px + 300px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(84.61deg);
+    }
+}

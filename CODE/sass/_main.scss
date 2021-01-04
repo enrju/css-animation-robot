@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    background-color: #1e1e1e;
+
+    section {
+        position: relative;
+        /* additional division by 2 because scale(0.5) */
+        left: calc(50% - 950px / 2 / 2);
+        top: 130px;
+        transform: scale(0.5);
+        transform-origin: 0 0;
+
+        >div {
+            position: absolute;
+
+            >div {
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                // border: 1px solid black;
+                border-radius: 20px;
+                background-color: black;
+            }
+        }
+
+        .robot_body {
+            width: 950px;
+            height: 200px;
+            // border: 1px solid black;
+            background-color: cadetblue;
+
+            >div:first-child {
+                left: calc(100px - 20px);
+                top: calc(100px - 20px);
+            }
+
+            >div:last-child {
+                left: calc(100px + 750px - 20px);
+                top: calc(100px - 20px);
+            }
+        }
+
+        .left_arm_1 {
+            width: 380px;
+            height: 80px;
+            // border: 1px solid black;
+            border-radius: 40px;
+            background-color: navy;
+
+            >div:first-child {
+                top: calc(40px - 20px);
+                left: calc(40px - 20px);
+            }
+
+            >div:last-child {
+                top: calc(40px - 20px);
+                left: calc(40px + 300px - 20px);
+            }
+        }
+
+        .left_arm_2 {
+            width: 880px;
+            height: 80px;
+            // border: 1px solid black;
+            border-radius: 40px;
+            background-color: royalblue;
+
+            >div:first-child {
+                top: calc(40px - 20px);
+                left: calc(40px - 20px);
+            }
+
+            >div:last-child {
+                top: calc(40px - 20px);
+                left: calc(40px + 800px - 20px);
+            }
+        }
+
+        .right_arm_1 {
+            width: 380px;
+            height: 80px;
+            // border: 1px solid black;
+            border-radius: 40px;
+
+            background-color: royalblue;
+
+            >div:first-child {
+                top: calc(40px - 20px);
+                left: calc(40px - 20px);
+            }
+
+            >div:last-child {
+                top: calc(40px - 20px);
+                left: calc(40px + 300px - 20px);
+            }
+        }
+
+        .right_arm_2 {
+            width: 880px;
+            height: 80px;
+            // border: 1px solid black;
+            border-radius: 40px;
+            background-color: navy;
+
+            >div:first-child {
+                top: calc(40px - 20px);
+                left: calc(40px - 20px);
+            }
+
+            >div:last-child {
+                top: calc(40px - 20px);
+                left: calc(40px + 800px - 20px);
+            }
+        }
+
+        /* start position */
+        /* X = left */
+        /* Y = top */
+        .left_arm_1 {
+            left: calc(100px - 40px);
+            top: calc(100px - 40px);
+            transform: rotate(0deg);
+            transform-origin: 40px 40px;
+            transition: 1s linear;
+            animation: left_arm1_animation 7s linear infinite;
+        }
+
+        .left_arm_2 {
+            left: calc(100px + 300px - 40px);
+            top: calc(100px - 40px);
+            transform: rotate(84.61deg);
+            transform-origin: 40px 40px;
+            transition: 1s linear;
+            animation: left_arm2_animation 7s linear infinite;
+        }
+
+        .right_arm_1 {
+            left: calc(100px + 750px - 40px);
+            top: calc(100px - 40px);
+            transform: rotate(-180deg);
+            transform-origin: 40px 40px;
+            transition: 1s linear;
+            animation: right_arm1_animation 7s linear infinite;
+        }
+
+        .right_arm_2 {
+            left: calc(100px + 750px - 300px - 40px);
+            top: calc(100px - 40px);
+            transform: rotate(180deg - 84.61deg);
+            transform-origin: 40px 40px;
+            transition: 1s linear;
+            animation: right_arm2_animation 7s linear infinite;
+        }
+    }
+}
