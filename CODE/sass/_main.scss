@@ -100,5 +100,23 @@ body {
                 left: calc(40px + 300px - 20px);
             }
         }
+
+        .right_arm_2 {
+            width: 880px;
+            height: 80px;
+            // border: 1px solid black;
+            border-radius: 40px;
+            background-color: navy;
+
+            >div:first-child {
+                top: calc(40px - 20px);
+                left: calc(40px - 20px);
+            }
+
+            >div:last-child {
+                top: calc(40px - 20px);
+                left: calc(40px + 800px - 20px);
+            }
+        }
     }
 }

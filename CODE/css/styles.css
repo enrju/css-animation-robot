@@ -99,4 +99,21 @@ body section .right_arm_1 > div:last-child {
   top: calc(40px - 20px);
   left: calc(40px + 300px - 20px);
 }
+
+body section .right_arm_2 {
+  width: 880px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: navy;
+}
+
+body section .right_arm_2 > div:first-child {
+  top: calc(40px - 20px);
+  left: calc(40px - 20px);
+}
+
+body section .right_arm_2 > div:last-child {
+  top: calc(40px - 20px);
+  left: calc(40px + 800px - 20px);
+}
 /*# sourceMappingURL=styles.css.map */
