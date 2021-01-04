@@ -545,6 +545,42 @@
         transform: rotate(34.745deg);
     }
 
+    91% {
+        left: calc(292px - 40px);
+        top: calc(329px - 40px);
+        transform: rotate(35.766deg);
+    }
+
+    92% {
+        left: calc(329px - 40px);
+        top: calc(292px - 40px);
+        transform: rotate(38.248deg);
+    }
+
+    93% {
+        left: calc(359px - 40px);
+        top: calc(249px - 40px);
+        transform: rotate(43.030deg);
+    }
+
+    94% {
+        left: calc(381px - 40px);
+        top: calc(202px - 40px);
+        transform: rotate(51.529deg);
+    }
+
+    95% {
+        left: calc(395px - 40px);
+        top: calc(152px - 40px);
+        transform: rotate(65.522deg);
+    }
+
+    96% {
+        left: calc(100px + 300px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(84.61deg);
+    }
+
     100% {
         left: calc(100px + 300px - 40px);
         top: calc(100px - 40px);

@@ -545,6 +545,33 @@
         transform: rotate(63.468deg);
     }
 
+    91% {
+        // left and top no change to end animation
+        transform: rotate(60.662deg);
+    }
+
+    92% {
+        transform: rotate(59.329deg);
+    }
+
+    93% {
+        transform: rotate(60.445deg);
+    }
+
+    94% {
+        transform: rotate(65.669deg);
+    }
+
+    95% {
+        transform: rotate(77.224deg);
+    }
+
+    96% {
+        left: calc(100px + 750px - 300px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(180deg - 84.61deg);
+    }
+
     100% {
         left: calc(100px + 750px - 300px - 40px);
         top: calc(100px - 40px);
