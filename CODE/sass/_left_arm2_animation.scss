@@ -1,0 +1,589 @@
+@keyframes left_arm2_animation {
+    0% {
+        left: calc(100px + 300px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(84.61deg);
+    }
+
+    1% {
+        left: calc(395px - 40px);
+        top: calc(152px - 40px);
+        transform: rotate(84.292deg);
+    }
+
+    2% {
+        left: calc(381px - 40px);
+        top: calc(202px - 40px);
+        transform: rotate(83.317deg);
+    }
+
+    3% {
+        left: calc(359px - 40px);
+        top: calc(249px - 40px);
+        transform: rotate(81.721deg);
+    }
+
+    4% {
+        left: calc(329px - 40px);
+        top: calc(292px - 40px);
+        transform: rotate(60.096deg);
+    }
+
+    5% {
+        left: calc(292px - 40px);
+        top: calc(329px - 40px);
+        transform: rotate(44.418deg);
+    }
+
+    6% {
+        left: calc(250px - 40px);
+        top: calc(359px - 40px);
+        transform: rotate(34.745deg);
+    }
+
+    7% {
+        left: calc(292px - 40px);
+        top: calc(329px - 40px);
+        transform: rotate(44.418deg);
+    }
+
+    8% {
+        left: calc(329px - 40px);
+        top: calc(292px - 40px);
+        transform: rotate(60.096deg);
+    }
+
+    9% {
+        left: calc(359px - 40px);
+        top: calc(249px - 40px);
+        transform: rotate(81.721deg);
+    }
+
+    10% {
+        left: calc(381px - 40px);
+        top: calc(202px - 40px);
+        transform: rotate(101.577deg);
+    }
+
+    11% {
+        left: calc(395px - 40px);
+        top: calc(152px - 40px);
+        transform: rotate(112.774deg);
+    }
+
+    12% {
+        left: calc(400px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(116.531deg);
+    }
+
+    13% {
+        left: calc(395px - 40px);
+        top: calc(152px - 40px);
+        transform: rotate(112.774deg);
+    }
+
+    14% {
+        left: calc(381px - 40px);
+        top: calc(202px - 40px);
+        transform: rotate(101.577deg);
+    }
+
+    15% {
+        left: calc(359px - 40px);
+        top: calc(249px - 40px);
+        transform: rotate(81.721deg);
+    }
+
+    16% {
+        left: calc(329px - 40px);
+        top: calc(292px - 40px);
+        transform: rotate(60.096deg);
+    }
+
+    17% {
+        left: calc(292px - 40px);
+        top: calc(329px - 40px);
+        transform: rotate(44.418deg);
+    }
+
+    18% {
+        left: calc(250px - 40px);
+        top: calc(359px - 40px);
+        transform: rotate(34.745deg);
+    }
+
+    19% {
+        left: calc(292px - 40px);
+        top: calc(329px - 40px);
+        transform: rotate(44.418deg);
+    }
+
+    20% {
+        left: calc(329px - 40px);
+        top: calc(292px - 40px);
+        transform: rotate(60.096deg);
+    }
+
+    21% {
+        left: calc(359px - 40px);
+        top: calc(249px - 40px);
+        transform: rotate(81.721deg);
+    }
+
+    22% {
+        left: calc(381px - 40px);
+        top: calc(202px - 40px);
+        transform: rotate(101.577deg);
+    }
+
+    23% {
+        left: calc(395px - 40px);
+        top: calc(152px - 40px);
+        transform: rotate(112.774deg);
+    }
+
+    24% {
+        left: calc(400px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(116.531deg);
+    }
+
+    25% {
+        left: calc(395px - 40px);
+        top: calc(152px - 40px);
+        transform: rotate(112.774deg);
+    }
+
+    26% {
+        left: calc(381px - 40px);
+        top: calc(202px - 40px);
+        transform: rotate(101.577deg);
+    }
+
+    27% {
+        left: calc(359px - 40px);
+        top: calc(249px - 40px);
+        transform: rotate(81.721deg);
+    }
+
+    28% {
+        left: calc(329px - 40px);
+        top: calc(292px - 40px);
+        transform: rotate(60.096deg);
+    }
+
+    29% {
+        left: calc(292px - 40px);
+        top: calc(329px - 40px);
+        transform: rotate(44.418deg);
+    }
+
+    30% {
+        left: calc(250px - 40px);
+        top: calc(359px - 40px);
+        transform: rotate(34.745deg);
+    }
+
+    31% {
+        left: calc(202px - 40px);
+        top: calc(381px - 40px);
+        transform: rotate(28.845deg);
+    }
+
+    32% {
+        left: calc(152px - 40px);
+        top: calc(395px - 40px);
+        transform: rotate(25.172deg);
+    }
+
+    33% {
+        left: calc(100px - 40px);
+        top: calc(400px - 40px);
+        transform: rotate(22.872deg);
+    }
+
+    34% {
+        left: calc(47px - 40px);
+        top: calc(395px - 40px);
+        transform: rotate(21.483deg);
+    }
+
+    35% {
+        left: calc(-2px - 40px);
+        top: calc(381px - 40px);
+        transform: rotate(20.746deg);
+    }
+
+    36% {
+        left: calc(-49px - 40px);
+        top: calc(359px - 40px);
+        transform: rotate(20.516deg);
+    }
+
+    37% {
+        left: calc(-92px - 40px);
+        top: calc(329px - 40px);
+        transform: rotate(20.715deg);
+    }
+
+    38% {
+        left: calc(-129px - 40px);
+        top: calc(292px - 40px);
+        transform: rotate(21.304deg);
+    }
+
+    39% {
+        left: calc(-159px - 40px);
+        top: calc(249px - 40px);
+        transform: rotate(22.274deg);
+    }
+
+    40% {
+        left: calc(-181px - 40px);
+        top: calc(202px - 40px);
+        transform: rotate(23.638deg);
+    }
+
+    41% {
+        left: calc(-195px - 40px);
+        top: calc(152px - 40px);
+        transform: rotate(25.423deg);
+    }
+
+    42% {
+        left: calc(-200px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(27.664deg);
+    }
+
+    43% {
+        left: calc(-195px - 40px);
+        top: calc(47px - 40px);
+        transform: rotate(30.401deg);
+    }
+
+    44% {
+        left: calc(-181px - 40px);
+        top: calc(-2px - 40px);
+        transform: rotate(33.668deg);
+    }
+
+    45% {
+        left: calc(-159px - 40px);
+        top: calc(-50px - 40px);
+        transform: rotate(37.485deg);
+    }
+
+    46% {
+        left: calc(-129px - 40px);
+        top: calc(-92px - 40px);
+        transform: rotate(41.849deg);
+    }
+
+    47% {
+        left: calc(-92px - 40px);
+        top: calc(-129px - 40px);
+        transform: rotate(46.736deg);
+    }
+
+    48% {
+        left: calc(-50px - 40px);
+        top: calc(-159px - 40px);
+        transform: rotate(52.097deg);
+    }
+
+    49% {
+        left: calc(-2px - 40px);
+        top: calc(-181px - 40px);
+        transform: rotate(57.866deg);
+    }
+
+    50% {
+        left: calc(47px - 40px);
+        top: calc(-195px - 40px);
+        transform: rotate(63.965deg);
+    }
+
+    51% {
+        left: calc(99px - 40px);
+        top: calc(-200px - 40px);
+        transform: rotate(70.312deg);
+    }
+
+    52% {
+        left: calc(152px - 40px);
+        top: calc(-195px - 40px);
+        transform: rotate(76.821deg);
+    }
+
+    53% {
+        left: calc(202px - 40px);
+        top: calc(-181px - 40px);
+        transform: rotate(83.400deg);
+    }
+
+    54% {
+        left: calc(250px - 40px);
+        top: calc(-159px - 40px);
+        transform: rotate(89.946deg);
+    }
+
+    55% {
+        left: calc(292px - 40px);
+        top: calc(-129px - 40px);
+        transform: rotate(96.341deg);
+    }
+
+    56% {
+        left: calc(329px - 40px);
+        top: calc(-92px - 40px);
+        transform: rotate(102.425deg);
+    }
+
+    57% {
+        left: calc(359px - 40px);
+        top: calc(-50px - 40px);
+        transform: rotate(107.976deg);
+    }
+
+    58% {
+        left: calc(381px - 40px);
+        top: calc(-2px - 40px);
+        transform: rotate(112.645deg);
+    }
+
+    59% {
+        left: calc(395px - 40px);
+        top: calc(47px - 40px);
+        transform: rotate(115.847deg);
+    }
+
+    60% {
+        left: calc(400px - 40px);
+        top: calc(99px - 40px);
+        transform: rotate(116.531deg);
+    }
+
+    61% {
+        left: calc(395px - 40px);
+        top: calc(47px - 40px);
+        transform: rotate(115.847deg);
+    }
+
+    62% {
+        left: calc(381px - 40px);
+        top: calc(-2px - 40px);
+        transform: rotate(112.645deg);
+    }
+
+    63% {
+        left: calc(359px - 40px);
+        top: calc(-50px - 40px);
+        transform: rotate(107.976deg);
+    }
+
+    64% {
+        left: calc(329px - 40px);
+        top: calc(-92px - 40px);
+        transform: rotate(102.425deg);
+    }
+
+    65% {
+        left: calc(292px - 40px);
+        top: calc(-129px - 40px);
+        transform: rotate(96.341deg);
+    }
+
+    66% {
+        left: calc(250px - 40px);
+        top: calc(-159px - 40px);
+        transform: rotate(89.946deg);
+    }
+
+    67% {
+        left: calc(202px - 40px);
+        top: calc(-181px - 40px);
+        transform: rotate(83.400deg);
+    }
+
+    68% {
+        left: calc(152px - 40px);
+        top: calc(-195px - 40px);
+        transform: rotate(76.821deg);
+    }
+
+    69% {
+        left: calc(99px - 40px);
+        top: calc(-200px - 40px);
+        transform: rotate(70.312deg);
+    }
+
+    70% {
+        left: calc(47px - 40px);
+        top: calc(-195px - 40px);
+        transform: rotate(63.965deg);
+    }
+
+    71% {
+        left: calc(-2px - 40px);
+        top: calc(-181px - 40px);
+        transform: rotate(57.866deg);
+    }
+
+    72% {
+        left: calc(-50px - 40px);
+        top: calc(-159px - 40px);
+        transform: rotate(52.097deg);
+    }
+
+    73% {
+        left: calc(-92px - 40px);
+        top: calc(-129px - 40px);
+        transform: rotate(46.736deg);
+    }
+
+    74% {
+        left: calc(-129px - 40px);
+        top: calc(-92px - 40px);
+        transform: rotate(41.849deg);
+    }
+
+    75% {
+        left: calc(-159px - 40px);
+        top: calc(-50px - 40px);
+        transform: rotate(37.485deg);
+    }
+
+    76% {
+        left: calc(-181px - 40px);
+        top: calc(-2px - 40px);
+        transform: rotate(33.668deg);
+    }
+
+    77% {
+        left: calc(-195px - 40px);
+        top: calc(47px - 40px);
+        transform: rotate(30.401deg);
+    }
+
+    78% {
+        left: calc(-200px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(27.664deg);
+    }
+
+    79% {
+        left: calc(-195px - 40px);
+        top: calc(152px - 40px);
+        transform: rotate(25.423deg);
+    }
+
+    80% {
+        left: calc(-181px - 40px);
+        top: calc(202px - 40px);
+        transform: rotate(23.638deg);
+    }
+
+    81% {
+        left: calc(-159px - 40px);
+        top: calc(249px - 40px);
+        transform: rotate(22.274deg);
+    }
+
+    82% {
+        left: calc(-129px - 40px);
+        top: calc(292px - 40px);
+        transform: rotate(21.304deg);
+    }
+
+    83% {
+        left: calc(-92px - 40px);
+        top: calc(329px - 40px);
+        transform: rotate(20.715deg);
+    }
+
+    84% {
+        left: calc(-49px - 40px);
+        top: calc(359px - 40px);
+        transform: rotate(20.516deg);
+    }
+
+    85% {
+        left: calc(-2px - 40px);
+        top: calc(381px - 40px);
+        transform: rotate(20.746deg);
+    }
+
+    86% {
+        left: calc(47px - 40px);
+        top: calc(395px - 40px);
+        transform: rotate(21.483deg);
+    }
+
+    87% {
+        left: calc(100px - 40px);
+        top: calc(400px - 40px);
+        transform: rotate(22.872deg);
+    }
+
+    88% {
+        left: calc(152px - 40px);
+        top: calc(395px - 40px);
+        transform: rotate(25.172deg);
+    }
+
+    89% {
+        left: calc(202px - 40px);
+        top: calc(381px - 40px);
+        transform: rotate(28.845deg);
+    }
+
+    90% {
+        left: calc(250px - 40px);
+        top: calc(359px - 40px);
+        transform: rotate(34.745deg);
+    }
+
+    91% {
+        left: calc(292px - 40px);
+        top: calc(329px - 40px);
+        transform: rotate(35.766deg);
+    }
+
+    92% {
+        left: calc(329px - 40px);
+        top: calc(292px - 40px);
+        transform: rotate(38.248deg);
+    }
+
+    93% {
+        left: calc(359px - 40px);
+        top: calc(249px - 40px);
+        transform: rotate(43.030deg);
+    }
+
+    94% {
+        left: calc(381px - 40px);
+        top: calc(202px - 40px);
+        transform: rotate(51.529deg);
+    }
+
+    95% {
+        left: calc(395px - 40px);
+        top: calc(152px - 40px);
+        transform: rotate(65.522deg);
+    }
+
+    96% {
+        left: calc(100px + 300px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(84.61deg);
+    }
+
+    100% {
+        left: calc(100px + 300px - 40px);
+        top: calc(100px - 40px);
+        transform: rotate(84.61deg);
+    }
+}

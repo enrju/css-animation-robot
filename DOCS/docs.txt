@@ -1,0 +1,32 @@
+CSS animation - robot
+=====================
+
+Description
+-----------
+
+see README.md
+see sketch.jpg
+
+Conventions
+-----------
+
+Structure of directories
+------------------------
+
+- DOCS (documentation)
+- CODE (source code)
+
+Conventions of Git
+------------------
+
+-+-+-------------------------------------+-- master   (release)
+  \ \                                   /
+   \ +------------------+----------+-+-+---- debug    (debug)                                         [merge only into master]
+    \ \                /          / /
+     \ +--+-----+-+---+------+---/-+-------- feat     (new features)                                  [merge only into debug]
+      \    \   /   \        /   / 
+       \    +-+-----\------/---/------------ fix      (fix bugs)                                      [merge only into feat]
+        \            \    /   /
+         \            +--+---/-------------- refactor (change code - none fix bugs, none new feature) [merge only into feat]
+          \                 /
+           +---------------+---------------- docs     (documentation)                                 [merge only into debug]
