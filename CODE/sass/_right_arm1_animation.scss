@@ -339,6 +339,30 @@
         transform: rotate(-180deg + 60deg);
     }
 
+    85% {
+        transform: rotate(-180deg + 50deg);
+    }
+
+    86% {
+        transform: rotate(-180deg + 40deg);
+    }
+
+    87% {
+        transform: rotate(-180deg + 30deg);
+    }
+
+    88% {
+        transform: rotate(-180deg + 20deg);
+    }
+
+    89% {
+        transform: rotate(-180deg + 10deg);
+    }
+
+    90% {
+        transform: rotate(-180deg - 0deg);
+    }
+
     100% {
         transform: rotate(-180deg);
     }
