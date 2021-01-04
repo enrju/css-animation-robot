@@ -32,4 +32,20 @@ body section > div > div {
   border-radius: 20px;
   background-color: black;
 }
+
+body section .robot_body {
+  width: 950px;
+  height: 200px;
+  background-color: cadetblue;
+}
+
+body section .robot_body > div:first-child {
+  left: calc(100px - 20px);
+  top: calc(100px - 20px);
+}
+
+body section .robot_body > div:last-child {
+  left: calc(100px + 750px - 20px);
+  top: calc(100px - 20px);
+}
 /*# sourceMappingURL=styles.css.map */
