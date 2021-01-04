@@ -1,0 +1,28 @@
+CSS animation - robot
+=====================
+
+Description
+-----------
+
+see README.md
+
+Assumptions
+-----------
+
+Structure of directories
+------------------------
+
+- DOCS (documentation)
+- CODE (source code)
+
+Structure of Git
+----------------
+
+-+-+-------------------------+-- master (release)
+  \ \                       /
+   \ +----------------+--+-+---- debug  (debug)
+    \ \              /  /
+     \ +--+-----+---+--/-------- feat   (new features)
+      \    \   /      /
+       \    +-+------/---------- fix    (fix bugs)
+        +-----------+----------- docs   (documentation)
