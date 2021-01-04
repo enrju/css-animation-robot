@@ -19,6 +19,9 @@ body section {
           transform: scale(0.5);
   -webkit-transform-origin: 0 0;
           transform-origin: 0 0;
+  /* start position */
+  /* X = left */
+  /* Y = top */
 }
 
 body section > div {
@@ -115,5 +118,49 @@ body section .right_arm_2 > div:first-child {
 body section .right_arm_2 > div:last-child {
   top: calc(40px - 20px);
   left: calc(40px + 800px - 20px);
+}
+
+body section .left_arm_1 {
+  top: calc(100px - 40px);
+  left: calc(100px - 40px);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transform-origin: 40px 40px;
+          transform-origin: 40px 40px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+body section .left_arm_2 {
+  top: calc(100px - 40px);
+  left: calc(100px + 300px - 40px);
+  -webkit-transform: rotate(84.61deg);
+          transform: rotate(84.61deg);
+  -webkit-transform-origin: 40px 40px;
+          transform-origin: 40px 40px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+body section .right_arm_1 {
+  top: calc(100px - 40px);
+  left: calc(100px + 750px - 40px);
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  -webkit-transform-origin: 40px 40px;
+          transform-origin: 40px 40px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+body section .right_arm_2 {
+  top: calc(100px - 40px);
+  left: calc(100px + 750px - 300px - 40px);
+  -webkit-transform: rotate(95.39deg);
+          transform: rotate(95.39deg);
+  -webkit-transform-origin: 40px 40px;
+          transform-origin: 40px 40px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
 }
 /*# sourceMappingURL=styles.css.map */
